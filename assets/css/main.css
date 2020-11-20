@@ -1,0 +1,177 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+/********** fin reset ************/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+/* HEADER */
+
+header {
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: rgba(255, 255, 255, 0.589);
+    text-decoration: none;
+    margin: 0 0.5rem;
+    padding-bottom: 0.2rem;
+    font-size: 1.3rem;
+}
+
+.nav-container {
+    align-items: baseline;
+    padding: 1.2rem;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu ul {
+    position: absolute;
+    display: none;
+  }
+
+.menu li:hover ul {
+    left: 0;
+    margin-top: 0.5rem;
+    background-color: rgba(65, 65, 65, 0.788);
+    text-align: center;
+    display: block;
+}
+
+.menu li:hover li {
+    padding: 0.2rem; 
+}
+
+
+/* HEADER JUMBOTRON */
+
+.presentation {
+    padding-bottom: 2rem;
+}
+
+.jumbotron-container {
+    justify-content: center;
+    background-image: url(../img/pexels-francesco-ungaro-2835436.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 7rem 0
+}
+
+.jumbotron-container h1 {
+    font-size: 3rem;
+}
+
+.jumbotron-container p {
+    font-size: 1.5rem;
+}
+
+
+.jumbotron p {
+    margin-bottom: 1.2rem;
+}
+.link {
+    text-decoration: none;
+    color: white;
+    border: 0.15rem solid rgb(255, 255, 255);
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    margin-top: 2rem;
+}
+
+/* MAIN ARTICLES*/
+
+#articles section {
+    width: 75%;
+}
+.articles-item {
+    padding: 2rem;
+}
+
+.articles-item a {
+    text-decoration: none;
+    color: rgb(18, 111, 187);
+}
+
+.articles-item ul li {
+    margin-bottom: 1rem;
+    list-style: none;
+    color: rgb(18, 111, 187);
+}
+
+#articles span {
+    padding: 2rem;
+}
+
+#articles p {
+    margin-bottom: 2rem;
+}
+
+/* MAIN FORM */
+
+form {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+form h1 {
+    margin-bottom: 2rem;
+}
+
+.form-items {
+    margin-bottom: 1rem;
+}
+
+input[type="submit"] {
+    border: 0.1rem solid rgb(53, 53, 53);
+    border-radius: 0.3rem;
+    background-color: white;
+    font-size: 0.9rem;
+    padding: 0.3rem;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(65, 65, 65);
+    padding: 1rem 0rem;
+    color: white;
+}

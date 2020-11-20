@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Web</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="nav-container flex">
+            <h1>Marque</h1>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="">Page 1</a>
+                        <ul>
+                            <li><a href="#">lien 1</a></li>
+                            <li><a href="#">lien 2</a></li>
+                            <li><a href="#">lien 3</a></li>
+                            <li><a href="#">lien 4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">Page 2</a>
+                        <ul>
+                            <li><a href="#">lien 1</a></li>
+                            <li><a href="#">lien 2</a></li>
+                            <li><a href="#">lien 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">Page 3</a>
+                        <ul>
+                            <li><a href="#">lien 1</a></li>
+                            <li><a href="#">lien 2</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="presentation">
+            <div class="jumbotron-container flex">
+                <div class="jumbotron">
+                    <h1>Jumbotron</h1>
+                    <p>Ceci est un Jumbotron, je lui ai ajouté un effet parallax !</p>    
+                    <a href="https://www.w3schools.com/" class="link" target="_blank">Plus d'info sur W3School</a>
+                </div>
+            </div>
+        </div>  
+    </header>
+
+    <main>
+        <div id="articles" class="flex">
+            <aside class="articles-item">
+                <ul>
+                    <li><a href="https://www.capgemini.com/fr-fr/"> Capgemini</a></li>
+                    <li><a href="https://fr.linkedin.com/">LinkedIn</a></li>
+                    <li>Je suis un Dev</li>
+                    <li>Les joies du code</li>
+                </ul>
+              
+            </aside>
+            <section class="articles-item">
+                <div>
+                    <h1>Article</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur cumque vitae dignissimos ipsam id. Provident molestias non alias modi itaque cupiditate amet quas ipsum tenetur dolorum adipisci, deserunt mollitia neque.</p>
+                </div>
+                <div>
+                    <h1>Article</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae illo iste aspernatur omnis quia corrupti delectus autem tempora minus odio ducimus atque praesentium porro dolores quisquam, aliquam eveniet nulla corporis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla delectus sapiente magni illum unde voluptatum. Recusandae aliquid quidem quibusdam cumque deleniti at eveniet repellendus rem, excepturi, accusantium, temporibus consectetur officiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur cumque vitae dignissimos ipsam id. Provident molestias non alias modi itaque cupiditate amet quas ipsum tenetur dolorum adipisci, deserunt mollitia neque.</p>
+                </div>
+                <div>
+                    <h1>Article</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae illo iste aspernatur omnis quia corrupti delectus autem tempora minus odio ducimus atque praesentium porro dolores quisquam, aliquam eveniet nulla corporis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla delectus sapiente magni illum unde voluptatum. Recusandae aliquid quidem quibusdam cumque deleniti at eveniet repellendus rem, excepturi, accusantium, temporibus consectetur officiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur cumque vitae dignissimos ipsam id. Provident molestias non alias modi itaque cupiditate amet quas ipsum tenetur dolorum adipisci, deserunt mollitia neque.</p>
+                </div>
+                <div>
+                    <h1>Article</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae illo iste aspernatur omnis quia corrupti delectus autem tempora minus odio ducimus atque praesentium porro dolores quisquam, aliquam eveniet nulla corporis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla delectus sapiente magni illum unde voluptatum. Recusandae aliquid quidem quibusdam cumque deleniti at eveniet repellendus rem, excepturi, accusantium, temporibus consectetur officiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur cumque vitae dignissimos ipsam id. Provident molestias non alias modi itaque cupiditate amet quas ipsum tenetur dolorum adipisci, deserunt mollitia neque.</p>
+                </div>
+                <div>
+                    <h1>Article</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae illo iste aspernatur omnis quia corrupti delectus autem tempora minus odio ducimus atque praesentium porro dolores quisquam, aliquam eveniet nulla corporis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla delectus sapiente magni illum unde voluptatum. Recusandae aliquid quidem quibusdam cumque deleniti at eveniet repellendus rem, excepturi, accusantium, temporibus consectetur officiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur cumque vitae dignissimos ipsam id. Provident molestias non alias modi itaque cupiditate amet quas ipsum tenetur dolorum adipisci, deserunt mollitia neque.</p>
+                </div>
+            </section>
+        </div>
+
+        <form id="form" method="POST" action="">
+            <h1>Un Formulaire</h1>
+            <div class="form-items">
+                <label for="inputFirstname">Prénom :</label>
+                <input required type="text" id="inputFirstname" name="firstname">
+            </div>
+            <div class="form-items">
+                <label for="inputLastname">Nom :</label>
+                <input required type="text" id="inputLastname" name="lastname">
+            </div>
+            <div class="form-items">
+                <label for="inputMail">Email :</label>
+                <input required type="text" id="inputMail" name="mail">
+            </div>
+            <div class="form-items">
+                <label for="inputPassword">Mot de passe :</label>
+                <input type="password" id="inputPassword" name="password">
+            </div>
+            <input type="submit" value="Envoyer">
+        </form>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Copyright 2020...</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
